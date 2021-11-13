@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 sklearn_*.csv filter=lfs diff=lfs merge=lfs -text
+powerbi/POWERBI_sample.accdb filter=lfs diff=lfs merge=lfs -text
